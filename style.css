@@ -1,0 +1,39 @@
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+.hero {
+  background-image: url(img/doct.jpg);
+  background-position: center;
+  background-size: 100%;
+}
+
+.heroman {
+  opacity: 0;
+}
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.colour1{
+  background-color: rgb(82, 170, 243);
+}
+
+.colour2 {
+  background-color: rgba(29, 184, 245, 0.842);
+}
+
+.colour3 {
+  background-color: rgb(53, 53, 245);
+}
+
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
